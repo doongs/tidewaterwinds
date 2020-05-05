@@ -1,0 +1,141 @@
+#banner {
+  background-image: url(/assets/index/images/ensembleBanner.webp);
+}
+
+#banner > header {
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+  justify-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.box-highlight {
+  word-wrap: break-word;
+}
+
+.banner > header {
+  background-color: white;
+}
+
+.belowBanner {
+  padding: 5%;
+}
+
+.belowBanner > h3 {
+  text-align: center;
+}
+
+.icon {
+  border-radius: 50%;
+}
+
+a {
+  border-bottom: none !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* Override Theme CSS */
+.box.highlight {
+  padding-left: 0px !important;
+}
+
+#directors-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+}
+
+.individual-director {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#concert-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  justify-items: center;
+  column-gap: 2em;
+  row-gap: 5em;
+}
+
+#concert-info > img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+
+#message {
+  text-align: center;
+  background-color: transparent;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.carousel-container > div {
+  border: white solid 30px;
+}
+
+#gabriel {
+  border-radius: 10%
+  padding: 10px;
+}
+
+#footer {
+  padding: 0px !important;
+}
+#footer-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+}
+
+.footer-box-individual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#icon-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#icon-box > a {
+  padding: 1rem;
+}

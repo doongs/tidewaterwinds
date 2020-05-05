@@ -1,0 +1,38 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+
+.cards > div {
+  width: 100%;
+  max-width: 40rem;
+  height: auto;
+  padding: 1rem;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.03);
+}
+
+.grow-icon {
+  transition: all 0.5s ease-in-out;
+}
+
+.grow-icon:hover {
+  transform: scale(1.5);
+}
+
+.grow-text {
+  transition: all 0.5s ease-in-out;
+}
+
+.grow-text:hover {
+  transform: scale(1.05);
+}
+
