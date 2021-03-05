@@ -1,5 +1,7 @@
 (function () {
   //console.log(sessionStorage.getItem("visited"));
+  AOS.init();
+
   if (sessionStorage.getItem("visited") == null) {
     $("#alertModal").modal("show");
     sessionStorage.setItem("visited", true);

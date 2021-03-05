@@ -31,13 +31,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body id="page-top">
     <!-- Navigation-->
     <nav
-      class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+      class="navbar navbar-expand-lg navbar-dark fixed-top py-3"
       id="mainNav"
     >
       <div class="container">
@@ -64,22 +65,24 @@
               <a class="nav-link js-scroll-trigger" href="#about">The Winds</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services"
+              <a class="nav-link js-scroll-trigger" href="#concerts"
                 >Concerts</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio"
+              <a class="nav-link js-scroll-trigger" href="#auditions"
                 >Auditions</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact"
+              <a class="nav-link js-scroll-trigger" href="#education"
                 >Education</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#services"
+                >Services</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact"
@@ -121,7 +124,7 @@
     </header>
 
     <!-- Main -->
-    <section class="page-section" id="home">
+    <section class="page-section" id="home" data-aos="fade-up">
       <div class="container">
         <h2 class="text-center mt-0">About Us</h2>
         <hr class="divider my-4" />
@@ -189,8 +192,8 @@
           </div>
         </div>
         <div class="row m-md mt-5">
-          <div class="col m-2">
-            <h2 class="text-center">Our Mission Statement</h2>
+          <div class="col-md m-2">
+            <h3 class="text-center">Our Mission Statement</h3>
             <p>
               The mission of Tidewater Winds is to foster and maintain an
               organization dedicated to the making of music in the Sousa
@@ -200,9 +203,9 @@
               excellence.
             </p>
           </div>
-          <div class="col m-2">
+          <div class="col-md m-2">
             <ul class="m-0 p-0" style="list-style-type: none">
-              <h2 class="text-center">Our Goals</h2>
+              <h3 class="text-center">Our Goals</h3>
               <li>
                 To serve the community with live performances promoting the
                 appreciation of musical artistry with a unique blend of concert
@@ -228,8 +231,12 @@
       </div>
     </section>
 
-    <!-- About-->
-    <section class="page-section bg-primary text-white" id="about">
+    <!-- The Winds -->
+    <section
+      class="page-section bg-primary text-white"
+      id="about"
+      data-aos="fade-up"
+    >
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
@@ -246,7 +253,10 @@
                 <div class="carousel-item active">
                   <p>John Brewington, Music Director and Conductor</p>
                   <hr class="divider light my-4" />
-                  <img class="w-75" src="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/production-sitebuilder-v1-0-0/980/206980/7mK0Mr9z/820ceb0bc7f449f6bf99edf6f53ef5a1">
+                  <img
+                    class="w-75"
+                    src="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/production-sitebuilder-v1-0-0/980/206980/7mK0Mr9z/820ceb0bc7f449f6bf99edf6f53ef5a1"
+                  />
                 </div>
               </div>
               <a
@@ -279,9 +289,279 @@
       </div>
     </section>
 
-    
+    <!-- Auditions -->
+    <section
+      class="page-section bg-white text-black"
+      id="auditions"
+      data-aos="fade-up"
+    >
+      <div class="container text-center">
+        <h2>Auditions</h2>
+        <hr class="divider my-4" />
+        <p>
+          Interested in joining the Tidewater Winds? Please fill out our
+          application to register for our upcoming auditions!<br />You may
+          digitally fill-out your application (PDF), or email a printed
+          scan/photo (JPG/PNG). To submit a completed application, please email
+          a copy to our
+          <a style="text-decoration: underline" href="permanager.tw@gmail.com"
+            >Personnel Manager, Chad McGill (PerManager.TW@Gmail.com)</a
+          >.
+        </p>
+        <div class="container">
+          <div class="row d-flex justify-content-around">
+            <div class="col">
+              <a
+                class="btn btn-primary animate-left-5 m-2 p-4 my-5"
+                type="button"
+                href="https://storage.googleapis.com/wzukusers/user-16770018/documents/f8f47d1152c748eabce991f9ef93aae4/2020%20Summer%20Season%20Professional%20Application.pdf"
+              >
+                <span class="btn-inner-icon"
+                  ><i class="fa fa-download"></i
+                ></span>
+                <span class="btn-inner-text">Professional</span>
+              </a>
+            </div>
+            <div class="col">
+              <a
+                class="btn btn-primary animate-right-5 m-2 p-4 my-5"
+                type="button"
+                href="https://storage.googleapis.com/wzukusers/user-16770018/documents/553e57e3bb354efa9c48f12a7c8db6eb/Student%20Intern%20Application%202020.pdf"
+              >
+                <span class="btn-inner-icon"
+                  ><i class="fa fa-download"></i
+                ></span>
+                <span class="btn-inner-text">Intern</span>
+              </a>
+            </div>
+            <div class="col">
+              <a
+                class="btn btn-primary animate-right-5 m-2 p-4 my-5"
+                type="button"
+                href="https://storage.googleapis.com/wzukusers/user-16770018/documents/553e57e3bb354efa9c48f12a7c8db6eb/Student%20Intern%20Application%202020.pdf"
+                data-toggle="modal"
+                data-target="#auditionModal"
+              >
+                <span class="btn-inner-icon"
+                  ><i class="fa fa-download"></i
+                ></span>
+                <span class="btn-inner-text">Audition Materials</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <p>
+          <strong>ALL APPLICATIONS MUST BE SUBMITTED BY MAY 24th!</strong>
+          Applications submitted after the deadline of May 24th are not
+          guaranteed an audition for the 2021 Season. Audition times are based
+          upon total number of submitted applications. You will be contacted
+          with a general audition time.
+        </p>
+      </div>
+    </section>
 
-   
+    <section
+      class="page-section bg-primary text-white"
+      id="education"
+      data-aos="fade-up"
+    >
+      <div class="container text-center">
+        <h2>Education</h2>
+        <hr class="divider light my-4" />
+        <div id="portfolio">
+          <div class="container-fluid p-0">
+            <div class="row">
+              <div class="col-md">
+                <div class="m-3">
+                  <a
+                    class="portfolio-box"
+                    href="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/wzukusers/user-16770018/images/a35b7718a20b448abf7ebdf097c1d7aa/20191207_175812.jpg"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/wzukusers/user-16770018/images/a35b7718a20b448abf7ebdf097c1d7aa/20191207_175812.jpg"
+                      alt=""
+                    />
+                    <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">
+                        Small Ensemble
+                      </div>
+                      <div class="project-name">Woodwind Quartet</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="m-3">
+                  <a
+                    class="portfolio-box"
+                    href="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/production-sitebuilder-v1-0-0/980/206980/7mK0Mr9z/77f077a4dbb448b89f64756c3122c235"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/production-sitebuilder-v1-0-0/980/206980/7mK0Mr9z/77f077a4dbb448b89f64756c3122c235"
+                      alt=""
+                    />
+                    <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">
+                        Small Ensemble
+                      </div>
+                      <div class="project-name">Little Big Band</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="m-3">
+                  <a
+                    class="portfolio-box"
+                    href="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/production-sitebuilder-v1-0-0/980/206980/7mK0Mr9z/c5b4cd115af24d80a7c13d59e624d227"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/production-sitebuilder-v1-0-0/980/206980/7mK0Mr9z/c5b4cd115af24d80a7c13d59e624d227"
+                      alt=""
+                    />
+                    <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">
+                        Small Ensemble
+                      </div>
+                      <div class="project-name">Brass Quintet</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="m-3">
+                  <a
+                    class="portfolio-box"
+                    href="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/wzukusers/user-16770018/images/1c1a9735aada4cdab189a4c2374195ae/TW-intern-picture.jpg"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/wzukusers/user-16770018/images/1c1a9735aada4cdab189a4c2374195ae/TW-intern-picture.jpg"
+                      alt=""
+                    />
+                    <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">
+                        Education
+                      </div>
+                      <div class="project-name">Student Interns</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="m-3">
+                  <a
+                    class="portfolio-box"
+                    href="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/wzukusers/user-16770018/images/3325fefa2fd94eaf9f8806457a6549d4/20190711_192458.jpg"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/wzukusers/user-16770018/images/3325fefa2fd94eaf9f8806457a6549d4/20190711_192458.jpg"
+                      alt=""
+                    />
+                    <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">
+                        Education
+                      </div>
+                      <div class="project-name">Student Lectures</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="m-3">
+                  <a
+                    class="portfolio-box"
+                    href="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/wzukusers/user-16770018/images/90a8ed515b7242dbb609%5Cintern-sponsor-Gregg_Canada-TWW-donation-2"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="https://tidewaterwinds.org/x/cdn/?https://storage.googleapis.com/wzukusers/user-16770018/images/90a8ed515b7242dbb609%5Cintern-sponsor-Gregg_Canada-TWW-donation-2"
+                      alt=""
+                    />
+                    <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">
+                        Education
+                      </div>
+                      <div class="project-name">Adopt an Intern</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="page-section bg-white text-black"
+      id="services"
+      data-aos="fade-up"
+    >
+      <div class="container text-center">
+        <h2>Our Services</h2>
+        <hr class="divider my-4" />
+        <div class="row">
+          <div class="col-md">
+            <p>Open Rehearsals</p>
+            <p>
+              School groups, after school groups, community groups, businesses,
+              and senior living facilities can RSVP to experience one of our
+              rehearsals. While we ask you to remain quiet so the musicianFcan
+              work, your presence is welcome and a staff member will assist you
+              with our work.
+            </p>
+            <p>Master Classes</p>
+            <p>
+              For a nominal fee, you can secure one of our musicians to present
+              a Master Class for your school, studio or special event. Musicians
+              will offer support, direction and guidance in repertoire,
+              technique and rehearsal processes. We would love to help you
+              enhance your musical talents.
+            </p>
+            <p>Full Concert Band for Hire</p>
+            <p>
+              Tidewater Winds is a Professional Full-Size Concert Band. With
+              Maestro Brewington conducting, the Winds are available for hire by
+              Agencies, Performers, Music Industry Professionals and other
+              special events. Contact us for pricing and details at 757-480-0953
+            </p>
+            <p>Little Big Band for Hire</p>
+            <p>
+              Tidewater Winds 10 to 12 piece Jazz Band is available for special
+              events, concerts, festivals and promotions. Contact our management
+              office at 757-480-0953 for pricing and details.
+            </p>
+          </div>
+          <div class="col-md">
+            <p>Small Ensembles For Hire</p>
+            <p>
+              Tidewater Winds musicians are professional performers available
+              for additional programs, concerts and events as needed. Hire one
+              of our trios, quartets, or other configurations as needed for your
+              events at 757-480-0953
+            </p>
+            <p>Public Speaking Engagements</p>
+            <p>
+              The professional staff members of Tidewater Winds are available to
+              speak to your Civic League, Service Group, or Community Program on
+              the work of Tidewater Winds, the need for music in schools, free
+              community concerts, or any other topic appropriate for your needs.
+            </p>
+            <p>Student Band Clinics</p>
+            <p>
+              School bands, after school ensembles, community ensembles, can
+              secure members of our Concert Band or our Maestro to serve as a
+              clinician for your bands development. With professional expertise,
+              our members will empower your ensemble to reach their full
+              potential.
+            </p>
+            <p>Musician-In-Residence</p>
+            <p>
+              For a nominal fee, you can secure one of our musicians to be
+              present in your school, community. for your event, or just to
+              enhance your project with quality musicianship.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div
       class="modal fade"
@@ -347,47 +627,211 @@
       </div>
     </div>
 
-    <!-- Footer-->
-    <footer class="footer p-5 bg-white text-black">
-        <div class="container">
-          <div class="row d-flex align-items-center justify-content-between">
-            <div class="col-md d-flex flex-column align-items-center justify-content-around m-3">
-              <p>The Tidewater Winds</p>
-              <p>PO Box 62000</p>
-              <p>Virginia Beach, VA 23466</p>
-            </div>
-            <div class="col-md d-flex flex-column align-items-center justify-content-center m-3">
-              <a href="mailto:executivetww@gmail.com" data-toggle="tooltip" data-placement="top" title="" data-original-title="Email Us">
-                <p>ExecutiveTWW@gmail.com</p>
-              </a>
-              <p>757-480-0953</p>
-              <ul class="social-buttons row m-0 p-0" style="list-style: none;">
-                <li class="mx-2">
-                  <a href="https://www.facebook.com/TidewaterWinds/" class="icon icon-xs icon-white" aria-label="facebook social link" data-toggle="tooltip" data-placement="left" title="" data-original-title="Like us on Facebook!">
-                    <span class="fab fa-facebook"></span>
-                  </a>
-                </li>
-                <li class="mx-2">
-                  <a href="https://twitter.com/tidewaterrwinds" aria-label="twitter social link" class="icon icon-xs icon-white" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Follow us on Twitter!">
-                    <span class="fab fa-twitter"></span>
-                  </a>
-                </li>
-                <li class="mx-2">
-                  <a href="https://www.youtube.com/channel/UCjLz7yxANlHzXwq8GjV5UMg" aria-label="twitter social link" class="icon icon-xs icon-white" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Visit our Youtube Channel!">
-                    <span class="fab fa-youtube"></span>
-                  </a>
-                </li>
-                <li class="mx-2">
-                  <a href="https://www.linkedin.com/company/tidewater-winds/" aria-label="linkedin social link" class="icon icon-xs icon-white" data-toggle="tooltip" data-placement="right" title="" data-original-title="Visit our Linkedin!">
-                    <span class="fab fa-linkedin"></span>
-                  </a>
-                </li>
-              </ul>
-            </div>
+    <div
+      class="modal fade"
+      id="auditionModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Audition Materials</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-          <div class="row m-3">
-            <div class="col mb-md-0">
-              <!--
+          <div class="modal-body">
+            <ul
+              class="m-0 p-0"
+              style="text-decoration: underline; list-style-type: none"
+            >
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYY25wTVAzWGlaekU"
+                  >Audition Rubric</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYM1VJaXltRWxQeEk"
+                  >Flute/Piccolo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYWHZNb2ZqdlU1eUk"
+                  >Oboe</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYQm1jWDhsTXhhcjQ"
+                  >Clarinet</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYNDhhTnJ1SWVEZG8"
+                  >Bass Clarinet</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYRUFoYU5xOVRlMDA"
+                  >Bassoon</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYZG1nazgyeHJBNVU"
+                  >Saxophone (Alto/Bari)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYRjFjbldzRFUtbWM"
+                  >Saxophone (Tenor)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYYnUyVVYyMXJpaEU"
+                  >Horn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYcXNfUzJrTm5lcFk"
+                  >Trumpet</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYVFc2MTBaR1hzZ00"
+                  >Trombone</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYSF9uQ2tGc2I2X2c"
+                  >Baritone/Euphonium</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYNFpMYnp2UHZSRDg"
+                  >Tuba</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/open?id=0B2A30icnHaEYQ25YSzcyMlIxbU0"
+                  >Percussion</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="footer p-5 bg-primary text-white">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-between">
+          <div
+            class="col-md d-flex flex-column align-items-center justify-content-around m-3"
+          >
+            <p>The Tidewater Winds</p>
+            <p>PO Box 62000</p>
+            <p>Virginia Beach, VA 23466</p>
+          </div>
+          <div
+            class="col-md d-flex flex-column align-items-center justify-content-center m-3"
+          >
+            <a
+              href="mailto:executivetww@gmail.com"
+              data-toggle="tooltip"
+              data-placement="top"
+              title=""
+              data-original-title="Email Us"
+              style="text-decoration: underline"
+            >
+              <p>ExecutiveTWW@gmail.com</p>
+            </a>
+            <p>757-480-0953</p>
+            <ul class="social-buttons row m-0 p-0" style="list-style: none">
+              <li class="mx-2">
+                <a
+                  href="https://www.facebook.com/TidewaterWinds/"
+                  class="icon icon-xs icon-white"
+                  aria-label="facebook social link"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title=""
+                  data-original-title="Like us on Facebook!"
+                >
+                  <span class="fab fa-facebook"></span>
+                </a>
+              </li>
+              <li class="mx-2">
+                <a
+                  href="https://twitter.com/tidewaterrwinds"
+                  aria-label="twitter social link"
+                  class="icon icon-xs icon-white"
+                  data-toggle="tooltip"
+                  data-placement="bottom"
+                  title=""
+                  data-original-title="Follow us on Twitter!"
+                >
+                  <span class="fab fa-twitter"></span>
+                </a>
+              </li>
+              <li class="mx-2">
+                <a
+                  href="https://www.youtube.com/channel/UCjLz7yxANlHzXwq8GjV5UMg"
+                  aria-label="twitter social link"
+                  class="icon icon-xs icon-white"
+                  data-toggle="tooltip"
+                  data-placement="bottom"
+                  title=""
+                  data-original-title="Visit our Youtube Channel!"
+                >
+                  <span class="fab fa-youtube"></span>
+                </a>
+              </li>
+              <li class="mx-2">
+                <a
+                  href="https://www.linkedin.com/company/tidewater-winds/"
+                  aria-label="linkedin social link"
+                  class="icon icon-xs icon-white"
+                  data-toggle="tooltip"
+                  data-placement="right"
+                  title=""
+                  data-original-title="Visit our Linkedin!"
+                >
+                  <span class="fab fa-linkedin"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row m-3">
+          <div class="col mb-md-0">
+            <!--
                 <a
                   href="https://themesberg.com"
                   target="_blank"
@@ -402,20 +846,31 @@
                   />
                 </a>
                 -->
-              <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
-                <p class="font-weight-normal font-small mb-0">
-                  Copyright © The Tidewater Winds
-                  <span class="current-year">2021</span>. All rights reserved.<br>Website
-                  design by
-                  <a href="https://doongs.github.io/" style="text-decoration: underline">Gabriel Doon</a>
-                  &amp;
-                  <a href="https://www.linkedin.com/in/dylan-r-605225132/" style="text-decoration: underline">Dylan Reyes</a>.
-                </p>
-              </div>
+            <div
+              class="d-flex text-center justify-content-center align-items-center"
+              role="contentinfo"
+            >
+              <p class="font-weight-normal font-small mb-0">
+                Copyright © The Tidewater Winds
+                <span class="current-year">2021</span>. All rights reserved.<br />Website
+                design by
+                <a
+                  href="https://doongs.github.io/"
+                  style="text-decoration: underline"
+                  >Gabriel Doon</a
+                >
+                &amp;
+                <a
+                  href="https://www.linkedin.com/in/dylan-r-605225132/"
+                  style="text-decoration: underline"
+                  >Dylan Reyes</a
+                >.
+              </p>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JS-->
     <script src="https://unpkg.com/@popperjs/core@2"></script>
@@ -424,12 +879,10 @@
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <!-- Custom JS -->
     <script src="js/custom.js"></script>
-
-
-    
   </body>
 </html>
